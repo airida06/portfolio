@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ai Rida Marliana - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Ai Rida Marliana" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ai Rida Marliana">Ai Rida Marliana</h1>
+
+          <p class="title">UI / UX Designer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+          <div class="icon-box">
+            <a href="https://drive.google.com/file/d/1p3EnaJ7dHDu7LszYUB989e5amT1USjdu/view?usp=sharing" 
+              target="_blank" 
+              style="color: var(--text-gradient-yellow)">
+              <ion-icon name="download-outline"></ion-icon>
+            </a>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">Download</p>
+            <time datetime="1982-06-23">My Resume</time>
+          </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:airidamarliana29@gmail.com" class="contact-link">airidamarliana29@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="https://wa.me/6281389517768" class="contact-link">+62 81389517768</a>
+
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Yogyakarta, INA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://dribbble.com/airidaa" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/airidamarliana/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.behance.net/airidamarliana" class="social-link">
+              <ion-icon name="logo-behance"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/airiidaaa/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #CLOSE
+      -->
+
+    <button class="modal-close-btn" onclick="window.history.back()">
+        <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">E-LKPJ Kabupaten Sukabumi</h2>
+        </header>
+
+        <section class="about-text">
+          <h3 class="h3 service-title">Perkenalan</h3>
+          <h4 class="h4 service-item-title">📚 Apa itu E-LKPJ?</h4>
+          <p>
+            Elektronik Laporan Keterangan Pertanggungjawaban (E-LKPJ) adalah sistem yang mendukung penyusunan LKPJ pimpinan daerah di level Kabupaten/Kota dan Provinsi bertujuan untuk mengumpulkan dan 
+            memverifikasi data secara elektronik sehingga dapat mengingkatkan efektivitas, efisiensi, transparansi dan akuntabilitas dalam pemerintahan. Sistem ini merupakan sarana pelaporan pertanggungjawaban Kepala Daerah kepada DPRD.
+          </p>
+
+          <h4 class="h4 service-item-title">🗂️ Latar Belakang Projek E-LKPJ</h4>
+          <p>Adanya ketidaksinkronan data dalam proses penyusunan LKPJ yang dapat menghambat validitas dan efisiensi pelaporan  sehingga berpotensi menyebabkan terlambatnya pengambilan keputusan dan evaluasi kinerja oleh DPRD. Untuk mengatasi masalah tersebut, Bagian Tata Pemerintahan Kabupaten Sukabumi menginisiasi adanya sistem E-LKPJ supaya memudahkan proses penyusunan laporan pemerintah daerah. </p>
+
+          <h4 class="h4 service-item-title">📱 Key Features</h4>
+          <p><ol>
+            <li><strong>1. Input data laporan: </strong>pengguna mengisi dan mengirim laporan melalui sistem</li>
+            <li><strong>2. Validasi oleh admin: </strong>admin memeriksa dan menyetujui laporan yang masuk</li>
+            <li><strong>3. Activity log: </strong> untuk melakukan audit dan memonitor keamanan sistem secara real-time</li>
+            <li><strong>4. Unduh laporan: </strong>laporan diunduh dalam format PDF, Excel dan Document</li>
+          </ol></p>
+                    
+          <h4 class="h4 service-item-title">🎯 Project Direction</h4>
+          <p>Desain diarahkan agar mudah dipahami dan digunakan mengingat latar belakang usia dan pengetahuan teknologi pengguna yang beragam:
+          <ol>
+            <li>1. Navigasi sederhana</li>
+            <li>2. Akses cepat ke laporan</li>
+            <li>3. Tampilan bersih dan fokus pada keterbacaan</li>
+            <li>4. Fungsionalitas sehingga efektif dan efisien</li>
+          </ol></p>
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Peran Saya</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <!-- <h4 class="h4 service-item-title">Mobile design</h4> -->
+
+                <p class="service-item-text">
+                  Merancang komponen UI menggunakan auto-layout, variabel, dan properti varian, teks, dll.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-web.svg" alt="web design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <!-- <h4 class="h4 service-item-title">Web design</h4> -->
+
+                <p class="service-item-text">
+                  Melakukan validasi desain ke Pengguna untuk memastikan solusi sesuai kebutuhan.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="ux research icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <!-- <h4 class="h4 service-item-title">UX research</h4> -->
+
+                <p class="service-item-text">
+                  Menyusun design system Typography, Color dan lainnya secara terstruktur.
+                </p>
+              </div>
+
+            </li>
+
+            
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-research.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <!-- <h4 class="h4 service-item-title">UX Writing</h4> -->
+
+                <p class="service-item-text">
+                  Membuat tampilan aplikasi dan menyerahkannya ke programmer untuk dikembangkan.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="about-text">
+          <h3 class="h3 service-title">Alur Projek</h3>
+          <h4 class="h4 service-item-title">👩‍💻 Lingkup dan Skala Proyek</h4>
+          <p>Sistem E-LKPJ dirancang untuk memuat laporan pertanggungjawaban kinerja dari 82 perangkat daerah di Kabupaten Sukabumi. Rancangan sistem ini dibuat untuk mengakomodasi kebutuhan pelaporan tersebut secara efektif, terstruktur, dan mudah digunakan oleh perangkat daerah. Output utama sistem adalah dokumen LKPJ lengkap yang mencakup Bab 1 hingga Bab 5, sesuai format dan ketentuan yang berlaku. Berdasarkan informasi tersebut didapatkan:</p>
+          <p>
+          <ul class="service-list" style="display: grid; grid-template-columns: 1fr; gap: 1.5rem;">
+
+            <li class="service-item" style="padding-top: 8px; padding-bottom: 8px;">
+
+              <!-- <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile design icon" width="40">
+              </div> -->
+
+              <div class="service-content-box">
+                <!-- <h4 class="h4 service-item-title">Mobile design</h4> -->
+
+                <p class="service-item-text" style="padding-top: 8px; padding-bottom: 8px;">
+                  <h4>01. Menu Navigasi</h4>
+                </p>
+                <p>Sistem ini dirancang untuk menampung 60+ menu, yang menunjukkan luasnya cakupan fungsi yang disediakan untuk memenuhi kebutuhan pengguna.</p>
+              </div>
+
+            </li>
+
+            
+            <li class="service-item">
+
+              <!-- <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile design icon" width="40">
+              </div> -->
+
+              <div class="service-content-box">
+                <!-- <h4 class="h4 service-item-title">Mobile design</h4> -->
+
+                <p class="service-item-text">
+                  <h4>02. Lima Tampilan Role yang Berbeda</h4>
+                </p>
+                <p>Untuk memenuhi beragam kebutuhan operasional dan memastikan kontrol akses yang tepat, sistem ini dirancang secara detail dengan lima antarmuka terpisah yang disesuaikan untuk: </p>
+                <ol>
+                  <li><strong>1. Super Admin:</strong> Akses penuh ke seluruh data, monitoring pelaporan</li>
+                  <li><strong>2. Penyusun:</strong> Mengisi dan mengunduh data laporan, menerima notifikasi koreksi</li>
+                  <li><strong>3. Reviewer:</strong> Meninjau laporan yang diinput oleh penyusun dan perangkat daerah, memberikan catatan koreksi</li>
+                  <li><strong>4. Perangkat Dearah:</strong> Menginput BAB III sesuai format, melihat status laporan dan menindaklanjuti revisi yang diberikan reviewer atau super admin</li>
+                  <li><strong>5. DPRD:</strong> Akses read-only laporan final</li>
+                </ol>
+              </div>
+
+            </li>
+          </ul>
+          </p>
+
+          <h4 class="h4 service-item-title">👤 User Persona & Use Case</h4>
+          <p><div class="container">
+            <!-- Kolom Kiri: Persona -->
+            <div class="left">
+              <h4><strong>01. User Persona</strong></h4>
+              <p>Persona mewakili tipe pengguna yang akan memakai sistem, supaya tim desain & pengembang selalu punya acuan “siapa yang kita buatkan produk ini”.</p>
+              <img src="./assets/images/user persona-pd.png" alt="Persona 1">
+              <img src="./assets/images/user persona-admin.png" alt="Persona 2">
+            </div>
+
+            <!-- Kolom Kanan: Use Case -->
+            <div class="right">
+              <h4><strong>02. Use Case</strong></h4>
+              <p>Use case menjelaskan skenario spesifik bagaimana setiap role akan berinteraksi dengan sistem untuk mencapai tujuan tertentu.</p>
+              <img src="./assets/images/use case.png" alt="Use Case Diagram" style="max-width: 80%; border-radius: 8px; display: block; margin: 0;">
+            </div>
+          </div></p>
+
+          <style>
+            .container {
+            display: flex;
+            gap: 2rem;
+            align-items: flex-start;
+          }
+
+          .container p {
+            margin-top: 0;
+            margin-bottom: 0.25rem;
+          }
+
+          .left, .right {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+          }
+
+          .left img{
+            width: 90%;
+            border-radius: 8px;
+            display: block;
+            margin: 0;
+          }
+
+          /* Responsive untuk layar kecil */
+          @media (max-width: 768px) {
+            .container {
+              flex-direction: column;
+            }
+          }
+          </style>
+          
+          <h4 class="h4 service-item-title">🔍 Benchmarking</h4>
+          <p>Proses perancangan antarmuka sistem dilakukan dengan mengacu pada benchmark dari Sistem Akuntabilitas Kinerja Instansi Pemerintah (SAKIP) Kota Bogor dan Kabupaten Bogor yang sudah dikembangkan perusahaan sebelumnya, karena kedua sistem tersebut memiliki fitur pelaporan yang relevan. Alur pengisian laporan pada E-LKPJ mengikuti pola yang digunakan di SAKIP, kemudian dikembangkan menjadi lebih kompleks karena mencakup pengelolaan anggaran.</p>
+          <p><img src="./assets/images/benchmarking-2.png" alt="" style="max-width: 100%; width: 700px; height: auto; border-radius: 8px;  display: block; margin: auto;"></p>
+          <p>Selain itu, untuk bagian tampilan, benchmarking juga dilakukan terhadap SIDAKUM (Sistem Informasi Data Koperasi dan UMKM) Kabupaten Bogor, khususnya pada penyajian informasi dalam bentuk tabel data agar mudah dipahami.</p>
+          <p><img src="./assets/images/benchmarking-3.png" alt="" style="max-width: 100%; width: 700px; height: auto; border-radius: 8px;  display: block; margin: auto;">
+
+          <h4 class="h4 service-item-title">📊 User Flow</h4></p>
+          <p>Saya menyusun User Flow untuk memetakan alur interaksi pengguna dari awal hingga mencapai tujuan dalam sistem. Proses ini dilakukan dengan mempertimbangkan lima role serta aktivitas & hak aksesnya dalam sistem. </p>
+          <p><img src="./assets/images/user flow-admin.png" alt="" style="max-width: 100%; width: 600px; height: auto; border-radius: 8px;  display: block; margin: auto;"></p>
+          <p><img src="./assets/images/user flow-penyusun.png" alt="" style="max-width: 100%; width: 600px; height: auto; border-radius: 8px;  display: block; margin: auto;"></p>
+          <p><img src="./assets/images/user flow-reviewer.png" alt="" style="max-width: 100%; width: 600px; height: auto; border-radius: 8px;  display: block; margin: auto;"></p>
+
+          <h4 class="h4 service-item-title">🪟 Wireframe</h4></p>
+          <p>Berfungsi sebagai kerangka visual sederhana untuk merancang tata letak dan alur antarmuka sebelum desain detail dan pengembangan.</p>
+          <p><img src="./assets/images/wireframe.png" alt="" style="max-width: 100%; width: 600px; height: auto; border-radius: 8px;  display: block; margin: auto;"></p>
+
+          <h4 class="h4 service-item-title">⚛️ Design System</h4></p>
+          <p>Saya membangun Design System berbasis pendekatan Atomic Design System untuk memastikan konsistensi antarmuka. Pendekatan ini memungkinkan saya menyusun elemen UI mulai dari level terkecil seperti atoms (warna, tipografi, spacing), molecules (form input, button group), hingga organisms (form section, header).</p>
+          <p><img src="./assets/images/elkpj-design system 1.png" alt="" style="max-width: 100%; width: 600px; height: auto; border-radius: 8px;  display: block; margin: auto;"></p>
+          <p><img src="./assets/images/elkpj-design system 2.png" alt="" style="max-width: 100%; width: 600px; height: auto; border-radius: 8px;  display: block; margin: auto;"></p>
+          <p style="text-align: center;">Note : Hanya sebagian design system yg ditampilkan</p>
+
+          <h4 class="h4 service-item-title">💻 High-Fidelity Design</h4>
+          <p>Berikut hasil rancangan antarmukanya yang kemudian diserahkan kepada tim pengembang (programmer) sebagai acuan implementasi dan dilanjutkan ke tahap pengkodean.</p>     
+          <style>
+            @media (max-width: 900px) {
+              .image-row {
+                flex-wrap: wrap !important;
+                flex-direction: column !important;
+                align-items: center;
+              }
+              .image-row img {
+                width: 100% !important;
+                margin-bottom: 16px;
+              }
+            }
+          </style>
+
+          <div class="image-row" style="display: flex; justify-content: center; gap: 12px; flex-wrap: nowrap; margin-bottom: 10px;">
+            <img src="./assets/images/interface-konten.png" alt="" style="width: 270px; height: auto; border-radius: 8px; display: block;">
+            <img src="./assets/images/interface-konten update.png" alt="" style="width: 270px; height: auto; border-radius: 8px; display: block;">
+            <img src="./assets/images/interface-strategi.png" alt="" style="width: 270px; height: auto; border-radius: 8px; display: block;">
+          </div>
+          
+          <div class="image-row" style="display: flex; justify-content: center; gap: 12px; flex-wrap: nowrap;  margin-bottom: 5px;">
+            <img src="./assets/images/interface-form.png" alt="" style="width: 270px; height: auto; border-radius: 8px; display: block;">
+            <img src="./assets/images/interface-role.png" alt="" style="width: 270px; height: auto; border-radius: 8px; display: block;">
+            <img src="./assets/images/interface-permission.png" alt="" style="width: 270px; height: auto; border-radius: 8px; display: block;">
+          </div>
+          <p style="text-align: center;">Note : Hanya sebagian design yg ditampilkan</p>
+
+        </section>
+
+        <!--
+          - clients
+        -->
+
+        <section class="about-text">
+          <h3 class="h3 service-title">Dokumentasi Pengembangan</h3>
+          <p>Pengembangan sistem menggunakan metode Scrum yaitu pendekatannya yang iteratif dan fleksibel, memungkinkan tim untuk mengembangkan desain secara bertahap, menyesuaikan produk berdasarkan umpan balik pengguna.</p>     
+          <style>
+            .image-row {
+              display: flex;
+              justify-content: center;
+              gap: 12px;
+              margin-bottom: 10px;
+            }
+
+            .image-row img {
+              max-width: 100%;
+              width: 50%;
+              height: auto;
+              border-radius: 8px;
+            }
+
+            /* Saat layar max 600px (misal hp), ubah arah flex jadi column */
+            @media (max-width: 600px) {
+              .image-row {
+                flex-direction: column;
+                align-items: center; /* biar gambar tetap di tengah */
+              }
+
+              .image-row img {
+                width: 80%; /* agar gambarnya agak lebih besar di hp, bisa disesuaikan */
+              }
+            }
+          </style>
+
+          <div class="image-row">
+            <img src="./assets/images/dokumentasi-1.jpg" alt="">
+            <img src="./assets/images/dokumentasi-2.jpg" alt="">
+          </div>
+        </section>
+
+        <section class="about-text">
+          <h3 class="h3 service-title">Perilisan Sistem</h3>
+          <p>Sistem E-LKPJ telah resmi diluncurkan dan digunakan oleh 82 perangkat daerah di lingkungan Pemerintah Kabupaten Sukabumi sebagai media pelaporan pertanggungjawaban kinerja secara digital.</p>     
+          <div class="image-row">
+            <img src="./assets/images/perilisan-1.JPG" alt="">
+            <img src="./assets/images/perilisan-2.jpg" alt="">
+          </div>
+          <p style="text-align: center;">Sukabumi, Kamis, 06-02-2025.</p>
+        </section>
+
+        <section class="about-text">
+          <h3 class="h3 service-title">Pelajaran yang Didapat</h3>
+          <p>Dari proyek ini, saya memperoleh beberapa wawasan berharga, antara lain:
+          <ol>
+            <li>1. Pengembangan End-to-End dalam Konteks Pemerintahan: Memperoleh pemahaman mendalam tentang siklus pengembangan produk secara menyeluruh, dengan memenuhi standar regulasi dan IT Government</li>
+            <li>2. Adaptasi Metodologi Agile: Belajar beradaptasi dengan perubahan dan melakukan iterasi cepat dalam lingkungan agile scrum</li>
+            <li>3. Kolaborasi Intensif Tim Lintas Fungsi: Terlibat dalam sesi meeting berkelanjutan, menerima umpan balik dari pengguna, dan melakukan penyesuaian desain bersama tim pengembang untuk memastikan kelayakan teknis dan keselarasan bisnis</li>
+            <li>4. Mengelola Kompleksitas dan Skala Proyek Besar: Menguasai pengelolaan proyek berskala besar dan kompleks dengan menekankan pengelolaan design system dan dokumentasi yang rapi.</li>
+          </ol></p>
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
