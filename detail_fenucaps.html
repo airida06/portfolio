@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ai Rida Marliana - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Ai Rida Marliana" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ai Rida Marliana">Ai Rida Marliana</h1>
+
+          <p class="title">UI / UX Designer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+          <div class="icon-box">
+            <a href="https://drive.google.com/file/d/1yv59TCfzE6ctcN4CezXJlOYZAHh8W89l/view?usp=sharing" 
+              target="_blank" 
+              style="color: var(--text-gradient-yellow)">
+              <ion-icon name="download-outline"></ion-icon>
+            </a>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">Download</p>
+            <time datetime="1982-06-23">My Resume</time>
+          </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:airidamarliana29@gmail.com" class="contact-link">airidamarliana29@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="https://wa.me/6281389517768" class="contact-link">+62 81389517768</a>
+
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Jakarta, INA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://dribbble.com/airidaa" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/airidamarliana/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.behance.net/airidamarliana" class="social-link">
+              <ion-icon name="logo-behance"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/airiidaaa/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #CLOSE
+      -->
+
+    <button class="modal-close-btn" onclick="window.history.back()">
+        <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">Fenucaps Academy</h2>
+        </header>
+
+        <section class="about-text">
+          <h3 class="h3 service-title">Overview</h3>
+          <p>
+                <img src="./assets/images/project-fenucaps.png" alt="Google Play Link" style="max-width: 100%; width: 400px; height: auto; display: block; margin: auto;">
+          </p>
+          <p>
+            This project focuses on developing an e-learning feature for the Fenucaps website, which previously functioned solely as an e-commerce platform. I designed an integrated learning system inspired by platforms like Udemy, MySkill and dicoding enabling breastfeeding mothers not only to purchase products but also to easily access relevant and well-structured educational content.
+          </p>
+
+          <h4 class="h4 service-item-title">📱 Key Features</h4>
+          <p><ol>
+            <li><strong>1. Course Purchase & Certification: </strong>users purchase courses, access learning materials, and receive a certificate upon completion</li>
+            <li><strong>2. Community & Discussion Forum: </strong>users can ask questions, discuss, and share experiences with other learners</li>
+          </ol></p>
+                    
+          <h4 class="h4 service-item-title">🎯 Project Direction</h4>
+          <p>The design is made intuitive by considering users’ age, digital literacy, and their habits in using e-learning platforms:
+          <ol>
+            <li>1. Simple navigation</li>
+            <li>2. Clean & readable interface</li>
+            <li>3. Functional & efficient</li>
+            <li>4. Design consistency</li>
+          </ol></p>
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">My Role</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <!-- <h4 class="h4 service-item-title">Mobile design</h4> -->
+
+                <p class="service-item-text">
+                  Designing UI components using auto-layout, variables, variant properties, text, and more.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-web.svg" alt="web design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <!-- <h4 class="h4 service-item-title">Web design</h4> -->
+
+                <p class="service-item-text">
+                  Conduct design validation with users to ensure the solution meets their needs.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="ux research icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <!-- <h4 class="h4 service-item-title">UX research</h4> -->
+
+                <p class="service-item-text">
+                  Develop a structured design system including typography, color, and other elements.
+                </p>
+              </div>
+
+            </li>
+
+            
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-research.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <!-- <h4 class="h4 service-item-title">UX Writing</h4> -->
+
+                <p class="service-item-text">
+                  Create application interfaces and hand them off to developers for implementation.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="about-text">
+          <h3 class="h3 service-title">Project Flow</h3>
+          <h4 class="h4 service-item-title">👩‍💻 Project Scope and Scale</h4>
+          <ul class="service-list" style="display: grid; grid-template-columns: 1fr; gap: 1.5rem;">
+
+            <li class="service-item" style="padding-top: 8px; padding-bottom: 8px;">
+
+              <!-- <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile design icon" width="40">
+              </div> -->
+
+              <div class="service-content-box">
+                <!-- <h4 class="h4 service-item-title">Mobile design</h4> -->
+
+                <p class="service-item-text" style="padding-top: 8px; padding-bottom: 8px;">
+                  <h4>01. Navigation Menu</h4>
+                </p>
+                <p>This system enables users to purchase courses, access structured learning materials, earn certificates, and participate in community discussions to share experiences and ask questions.</p>
+              </div>
+
+            </li>
+
+            
+            <li class="service-item">
+
+              <!-- <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile design icon" width="40">
+              </div> -->
+
+              <div class="service-content-box">
+                <!-- <h4 class="h4 service-item-title">Mobile design</h4> -->
+
+                <p class="service-item-text">
+                  <h4>02. Three Different User Roles Views</h4>
+                </p>
+                <p>To meet diverse operational needs and ensure proper access control: </p>
+                <ol>
+                  <li><strong>1. Admin:</strong> Manage platform & users</li>
+                  <li><strong>2. Student:</strong> Learn, earn certificates, and community discussions</li>
+                  <li><strong>3. Instructurs:</strong> Create & manage courses, and community discussions</li>
+                </ol>
+              </div>
+
+            </li>
+          </ul>
+          </p>
+
+          <h4 class="h4 service-item-title">👤 Use Case</h4>
+          <p>Use cases describe specific scenarios of how each role interacts with the system to achieve particular goals.</p>
+          <p><img src="./assets/images/use case-fenucaps.png" alt="" style="max-width: 100%; width: 400px; height: auto; border-radius: 8px;  display: block; margin: auto;"></p>
+
+          
+          <h4 class="h4 service-item-title">🔍 Benchmarking</h4>
+          <p>The system interface design process is guided by benchmarks from well-known educational technology platforms in Indonesia, such as Udemy, Myskill, and Dicoding, to ensure a more intuitive and familiar user experience.</p>
+          <p><img src="./assets/images/benchmarking-fenucaps.png" alt="" style="max-width: 100%; width: 500px; height: auto; border-radius: 8px;  display: block; margin: auto;"></p>
+
+          <h4 class="h4 service-item-title">💻 High-Fidelity Design</h4>
+          <p>Here is the interface design, which was then handed over to the development team (programmers) as a reference for implementation and subsequently moved on to the coding stage.</p>     
+          <p><img src="./assets/images/fenucaps-admin.png" alt="" style="max-width: 100%; width: 100%; height: auto;  display: block; margin: auto;"></p>
+          <p style="text-align: center;">User Interface for Admin Account</p>
+          <p><img src="./assets/images/fenucaps-student.png" alt="" style="max-width: 100%; width: 100%; height: auto;  display: block; margin: auto;"></p>
+          <p style="text-align: center;">User Interface for Student Account</p>
+
+        </section>
+
+        <!--
+          - clients
+        -->
+
+        <section class="about-text">
+          <h3 class="h3 service-title">Collaboration & Handoff</h3>
+          <p>I work closely with developers to ensure that the designs I create meet user needs and are feasible to be developed into a fully functional system.</p>     
+          <p><img src="./assets/images/fenucaps-handoff.png" alt="" style="max-width: 100%; width: 100%; height: auto;  display: block; margin: auto;"></p>
+        
+          <h3 class="h3 service-title">Lessons Learned</h3>
+          <p>From this project, I gained several valuable insights, including:
+          <ol>
+            <li>1. Integrasi e-learning & e-commerce → earning to integrate new features into an existing platform without confusing users.</li>
+            <li>2. User-centered design → focusing on users age, digital literacy, and habits to create an intuitive experience.</li>
+            <li>3. Learning by doing → gaining hands-on understanding of complex edutech system workflows.</li>
+          </ol></p>
+          <p style="text-align: center;">* This design project was executed while I was working at PT Gemerlang Sejahtera Abadi.</p>
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
